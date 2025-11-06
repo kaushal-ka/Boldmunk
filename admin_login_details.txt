@@ -1,0 +1,5 @@
+email_address: kaushalkarnakayansh@gmail.com
+username: kaushal
+first_name: kaushal
+last_name: Karna
+password: kaushal
