@@ -138,6 +138,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 from django.contrib.messages import constants as messages
+from accounts.email_secret_keys import email_id, email_password
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',
 }
@@ -145,7 +146,6 @@ MESSAGE_TAGS = {
 # SMTP CONFIGURATION
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'kkarn02977@gmail.com'
-# App_name = GreatKart, App_password = 'ylul rvsr jpqk boye'
-EMAIL_HOST_PASSWORD = 'ylul rvsr jpqk boye'
+EMAIL_HOST_USER = email_id
+EMAIL_HOST_PASSWORD = email_password
 EMAIL_USE_TLS = True
