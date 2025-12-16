@@ -177,3 +177,7 @@ email_secret_keys.py
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/django
+
+# database 
+*.sqlite3
+*.db
