@@ -3,3 +3,8 @@ username: kaushal
 first_name: kaushal
 last_name: Karna
 password: kaushal
+
+
+sandbox account
+EMAIL = Boldmunkpersonalsandbox@gmail.com
+password = Kaushal@8848

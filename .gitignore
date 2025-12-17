@@ -167,7 +167,8 @@ cython_debug/
 # email_secret_keys
 email_secret_keys.py
 
-
+#login details.txt
+admin_login_details.txt
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
